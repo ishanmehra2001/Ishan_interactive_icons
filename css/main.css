@@ -37,7 +37,7 @@
     transform: rotate(360deg) scale(2);
     transition: transform 2s ease-in-out; 
     animation: scaleUpDownWithShadow 2s ease-in-out infinite; 
-    box-shadow: 10px ;
+    
     }
  @keyframes  scaleUpDownWithShadow{
  0% {
@@ -150,8 +150,7 @@
 .linkedin:hover object {
     transform: scale(1.5);
     transition: transform 3s ease; 
-    animation: colorChange 2s infinite;
-    box-shadow: 10px ;
+  
 }
 
   
